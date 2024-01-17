@@ -1,0 +1,25 @@
+{
+  "name": "nextjs_moralis",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.7.8",
+    "@web3auth/web3auth": "^1.0.1",
+    "magic-sdk": "^8.1.1",
+    "moralis": "^1.8.0",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-moralis": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

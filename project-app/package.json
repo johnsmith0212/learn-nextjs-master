@@ -1,0 +1,45 @@
+{
+  "name": "project-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "prisma": {
+    "seed": "ts-node -P tsconfig-seed.json -r tsconfig-paths/register --transpileOnly prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "4.6.1",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "bcrypt": "5.1.0",
+    "class-variance-authority": "0.4.0",
+    "clsx": "1.2.1",
+    "cookie": "0.5.0",
+    "css-reset-and-normalize": "2.3.6",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "jose": "4.11.1",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "2.0.10",
+    "react-modal": "^3.16.1",
+    "typescript": "5.0.4",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cookie": "^0.5.1",
+    "@types/react-modal": "^3.16.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.24",
+    "prisma": "4.6.1",
+    "tailwindcss": "3.3.2",
+    "ts-node": "10.9.1",
+    "tsconfig-paths": "4.1.1"
+  }
+}
